@@ -19,7 +19,9 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
-          sparse-checkout: .github/scripts .github/data
+          sparse-checkout: |
+            .github/scripts
+            .github/data
       - name: Check update rules
         run: node --test .github/scripts/groom_dashboard.test.mjs
       - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
