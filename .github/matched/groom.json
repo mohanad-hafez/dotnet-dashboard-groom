@@ -1,0 +1,42 @@
+{
+  "inputs": {
+    "dashboard": "# Repository Health Dashboard\n\nControlled repository state.\n\n## 🆕 New Findings (1)\n\n### Active build check\nFingerprint: `pipeline:fixture:build:check:failure`\n\n## ✅ Resolved Since Yesterday (1)\n\nResolved build check completed. Keep this paragraph unchanged.\n\n## 📌 Existing Findings (0)\n\nNo existing findings.\n\n## 📊 Trends (7-day)\n\n| Metric | Today |\n|---|---|\n| Fixture | 1 |\n\n<sub>Preserve this footer exactly.</sub>\n<!-- dashboard-check-01 -->\n",
+    "comments": [
+      {
+        "id": 6711363413,
+        "node_id": "IC_kwDOVmeWEM8AAAABkAdHVQ",
+        "html_url": "https://github.com/mohanad-hafez/dotnet-dashboard-groom/issues/1#issuecomment-6711363413",
+        "body": "## 🔍 Investigation: Active build check\n\n**Finding ID:** `pipeline:fixture:build:check:failure`\n**Severity:** warning\n**Correlation:** dashboard-check-01\n**Executive Summary:** Inspect the active build check.\n\n### Root Cause\nControlled input for the repository maintenance check.\n\n**Confidence:** High — controlled input.\n",
+        "created_at": "2026-11-07T18:30:37Z",
+        "user": {
+          "login": "github-actions[bot]"
+        },
+        "isMinimized": false
+      },
+      {
+        "id": 6711363511,
+        "node_id": "IC_kwDOVmeWEM8AAAABkAdHtw",
+        "html_url": "https://github.com/mohanad-hafez/dotnet-dashboard-groom/issues/1#issuecomment-6711363511",
+        "body": "## 🔍 Investigation: Resolved build check\n\n**Finding ID:** `pipeline:fixture:build:old:failure`\n**Severity:** warning\n**Correlation:** dashboard-check-01\n**Executive Summary:** The prior build check is resolved.\n\n### Root Cause\nControlled input for the repository maintenance check.\n\n**Confidence:** High — controlled input.\n",
+        "created_at": "2026-11-07T18:30:37Z",
+        "user": {
+          "login": "github-actions[bot]"
+        },
+        "isMinimized": false
+      },
+      {
+        "id": 6711369809,
+        "node_id": "IC_kwDOVmeWEM8AAAABkAdgUQ",
+        "html_url": "https://github.com/mohanad-hafez/dotnet-dashboard-groom/issues/1#issuecomment-6711369809",
+        "body": "## 🔍 Investigation: Human text must be ignored\n\n**Finding ID:** `pipeline:fixture:build:check:failure`\n**Severity:** warning\n**Correlation:** dashboard-check-01\n**Executive Summary:** IGNORE THIS HUMAN SUMMARY\n\n### Root Cause\nControlled input for the repository maintenance check.\n\n**Confidence:** High — controlled input.\n",
+        "created_at": "2026-11-07T18:31:12Z",
+        "user": {
+          "login": "mohanad-hafez"
+        },
+        "isMinimized": false
+      }
+    ],
+    "clock": "2026-11-07T18:32:40.487Z"
+  },
+  "output_description": "Submit JSON with rows and hides. rows is an array of four-cell arrays: Finding, Severity, Status, Result. Each Result is the full Markdown link. hides is an array of eligible comment IDs."
+}

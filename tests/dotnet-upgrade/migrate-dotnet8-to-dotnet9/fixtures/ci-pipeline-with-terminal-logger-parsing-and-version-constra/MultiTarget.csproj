@@ -1,5 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFrameworks>net7.0;net8.0;netstandard1.6</TargetFrameworks>
-  </PropertyGroup>
-</Project>
